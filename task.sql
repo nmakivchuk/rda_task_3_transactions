@@ -9,7 +9,7 @@ START TRANSACTION;
 
 -- And some data should be created inside the transaction 
 INSERT INTO OrdersItems (OrderID, ProductID, Count)
-    VALUES ('1', '1', '1');
+    VALUES (1, 1, 1);
 
 UPDATE Products
     SET WarehouseAmount = WarehouseAmount - 1
