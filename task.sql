@@ -8,7 +8,7 @@ INSERT INTO Orders (CustomerID, Date)
 START TRANSACTION; 
 
 -- And some data should be created inside the transaction 
-INSERT INTO OrdersItems (OrderID, ProductID, Count)
+INSERT INTO OrderItems (OrderID, ProductID, Count)
     VALUES (1, 1, 1);
 
 UPDATE Products
